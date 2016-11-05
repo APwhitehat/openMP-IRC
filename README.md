@@ -5,8 +5,9 @@ i don't intend to infringement copyrights
 #CREDITS
 Pacheco_IntroductionToParallelProgramming_MorganKaufmann (openMP concepts)
 www.tutorialspoint.com/unix_sockets/index.htm (for understanding Sockets & networking )
-http://www.linuxhowtos.org/C_C++/socket.htm (for understanding Sockets & networking)
- berenger.eu/blog/    (for multithreading & non-Blocking sockets)
+www.linuxhowtos.org/C_C++/socket.htm (for understanding Sockets & networking)
+
+berenger.eu/blog/    (for multithreading & non-Blocking sockets)
 
 
 
