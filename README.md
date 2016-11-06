@@ -12,7 +12,7 @@ berenger.eu/blog/    (for multithreading & non-Blocking sockets)
 This uses NON-Blocking sockets to communicate between server and client 
 Uses openMP to handle multiple clients
 <p>
-<h2>How to use</h2><<br>
+<h2>How to use</h2> <br>
 </p>
 
 To Setup a client , one need to compile the client.cpp onto their pc .
