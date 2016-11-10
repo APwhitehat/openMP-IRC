@@ -20,13 +20,11 @@ Uses openMP to handle multiple clients .
 <li>Msg by Nickname and by channel </li>
 <li>Message waits for offline client </li>
 </ul>
-<p><h2>How to use</h2><br></p>
+<h2>How to use</h2>
 <h3> Client</h3>
-
 To Setup a client , one need to compile the client.cpp onto their pc . <br>
 call the client with hostname of the server and respective port <br>
 <code> ./client hostname portno </code> <br>
-
 <h4> Manual </h4>
 For single one to one msg <br>
 <code> /msg nick "your message" </code> <br>
