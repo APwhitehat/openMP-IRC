@@ -3,10 +3,11 @@
 I don't intend to infringe copyrights 
 
 <h3>#CREDITS</h3>
-Pacheco Introduction To Parallel Programming Morgan Kaufmann (openMP concepts)
-www.tutorialspoint.com/unix_sockets/index.htm (for understanding Sockets & networking )
-www.linuxhowtos.org/C_C++/socket.htm (for understanding Sockets & networking)
-
+Code starting template
+<a href="http://berenger.eu/blog/c-a-tcpip-server-using-openmp-linux-socket/" > A tcp/ip server using OpenMP </a> <br>
+Pacheco Introduction To Parallel Programming Morgan Kaufmann (openMP concepts) <br>
+www.tutorialspoint.com/unix_sockets/index.htm (for understanding Sockets & networking ) <br>
+www.linuxhowtos.org/C_C++/socket.htm (for understanding Sockets & networking) <br>
 <a href="berenger.eu/blog/">Berenger Bramas's blog </a>    (for multithreading & non-Blocking sockets) <br>
 <a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html" > Beej's guide to networks </a> (for network/socket system calls reference )
 <br>
