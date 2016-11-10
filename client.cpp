@@ -1,3 +1,4 @@
+#include <iostream>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -7,7 +8,6 @@
 #include <arpa/inet.h>
 #include <fcntl.h>
  
-#include <iostream>
 #include <cstdio>
 #include <cstdlib>
  
@@ -28,11 +28,8 @@ int main(int argc, char *argv[])
     // Const Declaration
     const int Stdin = STDIN_FILENO; //0
     const size_t BufferSize = 256;
-    /*
-    const int DefaultPort = 59898;   
-    const char* const DefaultAddress = "127.0.0.1";
-    */
-    //
+
+
     if (argc < 3) {
         std::cerr<<"usage "<<argv[0]<<" hostname port\n";
         std::exit(0);
