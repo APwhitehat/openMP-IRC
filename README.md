@@ -1,14 +1,15 @@
-An IRC made as an personal Project/Assignment 
+<center>An IRC made as an personal Project/Assignment</center>
 
-i don't intend to infringement copyrights 
+I don't intend to infringe copyrights 
 
 <h3>#CREDITS</h3>
-Pacheco_IntroductionToParallelProgramming_MorganKaufmann (openMP concepts)
+Pacheco Introduction To Parallel Programming Morgan Kaufmann (openMP concepts)
 www.tutorialspoint.com/unix_sockets/index.htm (for understanding Sockets & networking )
 www.linuxhowtos.org/C_C++/socket.htm (for understanding Sockets & networking)
 
-berenger.eu/blog/    (for multithreading & non-Blocking sockets)
-
+<a href="berenger.eu/blog/">Berenger Bramas's blog </a>    (for multithreading & non-Blocking sockets)
+<a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html" > Beej's guide to networks </a> (for network/socket system calls reference )
+<br>
 This uses NON-Blocking sockets to communicate between server and client 
 Uses openMP to handle multiple clients
 <p>
@@ -18,8 +19,10 @@ Uses openMP to handle multiple clients
 To Setup a client , one need to compile the client.cpp onto their pc .
 call the client with hostname of the server and respective port
 
-To setup Server , one needs to compile ompserver.cpp with ompserver.h
+To setup Server , one needs to compile server.cpp with server.h
 but here it gets a little tricky 
 your gcc version must support openMP and copilation needs to done with an 
 <code> -fopenmp </code> option
+
+Refer <a href="https://www.dartmouth.edu/~rc/classes/intro_openmp/compile_run.html" > how to compile openMP </a>
 
