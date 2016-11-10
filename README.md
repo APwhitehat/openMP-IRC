@@ -7,9 +7,10 @@ Pacheco Introduction To Parallel Programming Morgan Kaufmann (openMP concepts)
 www.tutorialspoint.com/unix_sockets/index.htm (for understanding Sockets & networking )
 www.linuxhowtos.org/C_C++/socket.htm (for understanding Sockets & networking)
 
-<a href="berenger.eu/blog/">Berenger Bramas's blog </a>    (for multithreading & non-Blocking sockets)
+<a href="berenger.eu/blog/">Berenger Bramas's blog </a>    (for multithreading & non-Blocking sockets) <br>
 <a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html" > Beej's guide to networks </a> (for network/socket system calls reference )
 <br>
+<h2> Introduction </h2>
 This uses NON-Blocking sockets to communicate between server and client 
 Uses openMP to handle multiple clients
 <p>
