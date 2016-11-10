@@ -313,11 +313,11 @@ private:
         else if(data.cmd==cmsg)
         {
             //this is not working
-            std::map<std::string,int>::const_iterator tmp_id =channel_names.find(data.dest);
+            //std::map<std::string,int>::const_iterator tmp_id =channel_names.find(data.dest);
 
-            if(tmp_id !=channel_names.cend() || 1)
+            if(channel_names.find(data.dest) !=channel_names.end() )
             {
-                int index=tmp_id->second;
+                int index=channel_names[data.dest];
                 for(int i=0;i<channels[index].size();i++)
                 {
                     bool found=false;
