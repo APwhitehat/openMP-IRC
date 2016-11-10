@@ -15,13 +15,26 @@
 */
  void showhelp()
  {
-    std::cout<<"\n[Status] Connected, type \"quit\" to exit\n\n"
+    /*std::cout<<"\n[Status] Connected, type \"quit\" to exit\n\n"
             <<"::::::::::MANNUAL:::::::::\n"
             <<"--For simple one person msg--\n"
             <<"/msg nickname \"your msg here\" \n"
             <<"--To broadcast your msg to everyone online--\n"
             <<"/all \"your broadcast msg\" \n\n"
             <<"Type help to show this msg \n\n";
+    */
+    std::cout   <<"For single one to one msg \n"
+                <<"/msg nick \"your message\" \n"
+                <<"For channel msg \n"
+                <<"/cmsg chname \"your meassage\" \n"
+                <<"For public broadcast \n"
+                <<"/all \"your message\" \n"
+                <<"To create a new channel \n"
+                <<"/add channelname  \n"
+                <<"To join a channel  \n"
+                <<"/join channelname   \n"
+                <<"To quit your client  \n"
+                <<"quit \n";
  }
 int main(int argc, char *argv[])
 {

@@ -315,7 +315,7 @@ private:
             //this is not working
             //std::map<std::string,int>::const_iterator tmp_id =channel_names.find(data.dest);
 
-            if(channel_names.find(data.dest) !=channel_names.end() )
+            if(channel_names.find(data.dest) !=channel_names.end() || 1)
             {
                 int index=channel_names[data.dest];
                 for(int i=0;i<channels[index].size();i++)
