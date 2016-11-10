@@ -15,11 +15,11 @@ www.linuxhowtos.org/C_C++/socket.htm (for understanding Sockets & networking) <b
 This uses NON-Blocking sockets to communicate between server and client 
 Uses openMP to handle multiple clients .
 <br><h4>Salient features</h4>
-<br>
 <ul>
 <li> Multiple clients can chat with each other simultaneously </li>
 <li>Msg by Nickname and by channel </li>
 <li>Message waits for offline client </li>
+</ul>
 <br>
 <p><h2>How to use</h2><br></p>
 <h3> Client</h3>
