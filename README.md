@@ -20,7 +20,6 @@ Uses openMP to handle multiple clients .
 <li>Msg by Nickname and by channel </li>
 <li>Message waits for offline client </li>
 </ul>
-<br>
 <p><h2>How to use</h2><br></p>
 <h3> Client</h3>
 
