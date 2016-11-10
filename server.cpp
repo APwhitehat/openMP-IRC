@@ -1,4 +1,4 @@
-#include "ompserver.h"
+#include "server.h"
  
 #include <cstdlib>
 #include <signal.h>
