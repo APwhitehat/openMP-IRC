@@ -38,14 +38,6 @@ private:
     const static int NbQueuedClients    = 4;    //< Queued clients in the listen function
     const static int BufferSize         = 256;  //< Message buffer size
  
-    // Generic method to test network C return value
-    // provides error handling
-    // funny though xD
-
-    static bool IsValidReturn(const int inReturnedValue){
-        return inReturnedValue >= 0;
-    }
- 
     ///////////////////////////////////////////////
     // Attributes
     ///////////////////////////////////////////////
@@ -579,6 +571,14 @@ void show_chs()
     std::cout << std::endl;
     }
 }
+
+// Generic method to test network C return value
+    // provides error handling
+    // funny though xD
+
+    static bool IsValidReturn(const int inReturnedValue){
+        return inReturnedValue >= 0;
+    }
  
 public:
     ///////////////////////////////////////////////
