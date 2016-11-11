@@ -314,8 +314,9 @@ private:
         {
             //this is not working
             //std::map<std::string,int>::const_iterator tmp_id =channel_names.find(data.dest);
+            //std::cout << "WOW : " << channel_names[data.dest] << std::endl;
 
-            if(channel_names.find(data.dest) !=channel_names.end() || 1)
+            if(channel_names.find(data.dest) !=channel_names.end())
             {
                 int index=channel_names[data.dest];
                 for(int i=0;i<channels[index].size();i++)
@@ -372,7 +373,9 @@ int SearchClient(const std::string name)
 //          Add a new channel           ///////
 bool addChannel(std::string name,std::string creator_nick)
 {
-    channel_names.insert ( std::pair<std::string,int>(name,channels_count) );
+    //channel_names.insert ( std::pair<std::string,int>(name,channels_count) );
+    std::cout << name.size() << "\n";
+    channel_names[name] = channels_count;
     channels_count++;
 
     channels.push_back( std::vector<std::string>(1,creator_nick) );
@@ -423,19 +426,20 @@ bool parse(std::string& buffer,directive &temp)
         else if(buffer.compare(0,4,"/add")==0)
         {
             temp.cmd=add;
-            if( *(buffer.end()-1) == '\n')
-                *(buffer.end()-1) = '\0';
-
-            temp.dest=buffer.substr(5);
+            //if( *(buffer.end()-1) == '\n')
+            //    *(buffer.end()-1) = '\0';
+            buffer=buffer.substr(5);
+            temp.dest=buffer.substr(0,buffer.find("\n"));
             return true;
         }
         else if(buffer.compare(0,5,"/join")==0)
         {
             temp.cmd=join;
-            if( *(buffer.end()-1) == '\n')
-                *(buffer.end()-1) = '\0';
+            //if( *(buffer.end()-1) == '\n')
+            //    *(buffer.end()-1) = '\0';
 
-            temp.dest=buffer.substr(6);
+            buffer=buffer.substr(6);
+            temp.dest=buffer.substr(0,buffer.find("\n"));
             return true;
         }
         else if(buffer.compare(0,5,"/cmsg")==0)
