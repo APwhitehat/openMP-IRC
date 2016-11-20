@@ -29,7 +29,7 @@ call the client with hostname of the server and respective port <br>
 For single one to one msg <br>
 <code> /msg nick "your message" </code> <br>
 For channel msg <br>
-<code> /cmsg chname "your meassage" </code><br>
+<code> /cmsg chname "your message" </code><br>
 For public broadcast <br>
 <code> /all "your message" </code><br>
 To create a new channel <br>
