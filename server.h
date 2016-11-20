@@ -185,8 +185,8 @@ private:
                         FirstTime=false;
 
                         //logs & debugging
-                        show(userid,recvBuffer);           
-                        show();
+                        //show (userid,recvBuffer);           
+                        //show();
                     }
                     else
                     {
@@ -207,8 +207,8 @@ private:
                                 broadcast(temp);
 
                             //logs & debugging
-                            show_chs();
-                            show(temp);
+                            //show_chs();
+                            //show(temp);
                             //show();
                         }
                     }
@@ -560,9 +560,9 @@ void show_chs()
         std::cout<<"ch name |"<<it->first<<"| id :"<<it->second<<"\n";
         it++;
     }
-    std::cout<<"size :"<<channels.size()<<"\n";
+    //std::cout<<"size :"<<channels.size()<<"\n";
     for (unsigned int i = 0; i < channels.size(); ++i){
-        std::cout<<"size[i] :"<<channels[i].size()<<"\n";
+        //std::cout<<"size[i] :"<<channels[i].size()<<"\n";
         std::cout << "ch no :"<<i<<" :";
         for (unsigned int j = 0; j < channels[i].size(); ++j){
             std::cout <<"i,j="<<i<<","<<j<<" |"<<channels[i][j]<<"| ";
