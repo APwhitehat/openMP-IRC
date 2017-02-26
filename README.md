@@ -1,4 +1,4 @@
-<h4>An IRC made as an personal Project/Assignment</h4>
+<h4>An IRC made as a personal Project/Assignment</h4>
 
 I don't intend to infringe copyrights 
 
@@ -43,7 +43,7 @@ To quit your client <br>
 
 To setup Server , one needs to compile server.cpp with server.h . <br>
 Simple right ? , NO it gets a little tricky 
-your gcc version must support openMP and copilation needs to done with an 
+your gcc version must support openMP and compilation needs to done with an 
 <code> -fopenmp </code> option
 
 Refer <a href="https://www.dartmouth.edu/~rc/classes/intro_openmp/compile_run.html" > how to compile openMP Programs</a>
