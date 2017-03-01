@@ -1,4 +1,4 @@
-#### An IRC made as an personal Project/Assignment
+#### An IRC made as a personal Project/Assignment
 
 I don't intend to infringe copyrights 
 
@@ -37,13 +37,14 @@ To create a new channel <br>
 To join a channel <br>
 <code> /join channelname </code> <br>
 To quit your client <br>
-<code> quit </code> <br>
+''' quit 
+'''<br>
 
 ### Server 
 
 To setup Server , one needs to compile server.cpp with server.h . <br>
 Simple right ? , NO it gets a little tricky 
-your gcc version must support openMP and copilation needs to done with an 
+your gcc version must support openMP and compilation needs to done with an 
 <code> -fopenmp </code> option
 
 Refer <a href="https://www.dartmouth.edu/~rc/classes/intro_openmp/compile_run.html" > how to compile openMP Programs</a>
