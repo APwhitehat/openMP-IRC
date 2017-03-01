@@ -2,19 +2,11 @@
 
 I don't intend to infringe copyrights 
 
-### Credits
-Code starting template
-<a href="http://berenger.eu/blog/c-a-tcpip-server-using-openmp-linux-socket/" > A tcp/ip server using OpenMP </a> <br>
-Pacheco Introduction To Parallel Programming Morgan Kaufmann (openMP concepts) <br>
-www.tutorialspoint.com/unix_sockets/index.htm (for understanding Sockets & networking ) <br>
-www.linuxhowtos.org/C_C++/socket.htm (for understanding Sockets & networking) <br>
-<a href="berenger.eu/blog/">Berenger Bramas's blog </a>    (for multithreading & HPC) <br>
-<a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html" > Beej's guide to networks </a> (for network/socket system calls reference )
-<br>
 ## Introduction
 This uses NON-Blocking sockets to communicate between server and client 
 Uses openMP to handle multiple clients .
-<br><h4>Salient features</h4>
+
+#### Salient features
 <ul>
 <li> Multiple clients can chat with each other simultaneously </li>
 <li>Msg by Nickname and by channel </li>
@@ -37,10 +29,7 @@ To create a new channel <br>
 To join a channel <br>
 <code> /join channelname </code> <br>
 To quit your client <br>
-```
-quit 
-``` 
-<br>
+<code>quit </code> <br>
 
 ### Server 
 
@@ -50,4 +39,14 @@ your gcc version must support openMP and compilation needs to done with an
 <code> -fopenmp </code> option
 
 Refer <a href="https://www.dartmouth.edu/~rc/classes/intro_openmp/compile_run.html" > how to compile openMP Programs</a>
+
+### Credits
+Code starting template
+<a href="http://berenger.eu/blog/c-a-tcpip-server-using-openmp-linux-socket/" > A tcp/ip server using OpenMP </a> <br>
+Pacheco Introduction To Parallel Programming Morgan Kaufmann (openMP concepts) <br>
+www.tutorialspoint.com/unix_sockets/index.htm (for understanding Sockets & networking ) <br>
+www.linuxhowtos.org/C_C++/socket.htm (for understanding Sockets & networking) <br>
+<a href="berenger.eu/blog/">Berenger Bramas's blog </a>    (for multithreading & HPC) <br>
+<a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html" > Beej's guide to networks </a> (for network/socket system calls reference )
+<br>
 
