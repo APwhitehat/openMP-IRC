@@ -1,8 +1,8 @@
-<h4>An IRC made as an personal Project/Assignment</h4>
+#### An IRC made as an personal Project/Assignment
 
 I don't intend to infringe copyrights 
 
-<h3>#CREDITS</h3>
+### Credits
 Code starting template
 <a href="http://berenger.eu/blog/c-a-tcpip-server-using-openmp-linux-socket/" > A tcp/ip server using OpenMP </a> <br>
 Pacheco Introduction To Parallel Programming Morgan Kaufmann (openMP concepts) <br>
@@ -11,7 +11,7 @@ www.linuxhowtos.org/C_C++/socket.htm (for understanding Sockets & networking) <b
 <a href="berenger.eu/blog/">Berenger Bramas's blog </a>    (for multithreading & HPC) <br>
 <a href="http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html" > Beej's guide to networks </a> (for network/socket system calls reference )
 <br>
-<h2> Introduction </h2>
+## Introduction
 This uses NON-Blocking sockets to communicate between server and client 
 Uses openMP to handle multiple clients .
 <br><h4>Salient features</h4>
@@ -20,12 +20,12 @@ Uses openMP to handle multiple clients .
 <li>Msg by Nickname and by channel </li>
 <li>Message waits for offline client </li>
 </ul>
-<h2>How to use</h2>
-<h3> Client</h3>
+## How to use
+### Client
 To Setup a client , one need to compile the client.cpp onto their pc . <br>
 call the client with hostname of the server and respective port <br>
 <code> ./client hostname portno </code> <br>
-<h4> Manual </h4>
+#### Manual 
 For single one to one msg <br>
 <code> /msg nick "your message" </code> <br>
 For channel msg <br>
@@ -39,7 +39,7 @@ To join a channel <br>
 To quit your client <br>
 <code> quit </code> <br>
 
-<h3> Server </h3>
+### Server 
 
 To setup Server , one needs to compile server.cpp with server.h . <br>
 Simple right ? , NO it gets a little tricky 
