@@ -40,7 +40,7 @@ your gcc version must support openMP and compilation needs to done with an
 
 Refer <a href="https://www.dartmouth.edu/~rc/classes/intro_openmp/compile_run.html" > how to compile openMP Programs</a>
 
-### Credits
+## Credits
 Code starting template
 <a href="http://berenger.eu/blog/c-a-tcpip-server-using-openmp-linux-socket/" > A tcp/ip server using OpenMP </a> <br>
 Pacheco Introduction To Parallel Programming Morgan Kaufmann (openMP concepts) <br>
