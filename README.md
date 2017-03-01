@@ -37,7 +37,8 @@ To create a new channel <br>
 To join a channel <br>
 <code> /join channelname </code> <br>
 To quit your client <br>
-```quit 
+```
+quit 
 ``` 
 <br>
 
