@@ -12,7 +12,9 @@ Uses openMP to handle multiple clients .
 <li>Msg by Nickname and by channel </li>
 <li>Message waits for offline client </li>
 </ul>
+
 ## How to use
+
 ### Client
 To Setup a client , one need to compile the client.cpp onto their pc . <br>
 call the client with hostname of the server and respective port <br>
